@@ -1,8 +1,9 @@
-# OpenTWPS
-Open Telecom Wholesale Price-list Standard 
+# What is OpenTWPS?
+
+The Open Telecom Wholesale Price-list Standard is a simple format for representing structured telecom service price list information: documents, data, configuration, and more.
 
 
-**Introduction**
+# Introduction
 
 Our recent research on telecom business to business (b2b) price-list automation for voice, SMS and virtual numbers shows that it is still a dilemma to get full automation integration working between communication service providers (CSPs) with high precision. The obvious reason for this is that there is no standard set for price list formats to help automate this process once and for all. 
 
@@ -10,11 +11,8 @@ We believe that starting an open standard (OS) initiative for telecommunications
 
 An open standard is a standard that is openly accessible and usable by anyone. It is also a prerequisite to use open license, non-discrimination and extensibility.[1] Typically, anybody can participate in the development.[3] There is no single definition, and interpretations vary with usage.
 
-**What is OpenTWPS?**
 
-The Open Telecom Wholesale Price-list Standard is a simple format for representing structured telecom service price list information: documents, data, configuration, and more.
-
-**What is OpenTWPS Used For?**
+# What is OpenTWPS Used For?
 
 OpenTWPS is used for helping interconnected communication service providers and businesses automate the processing of regular price-lists updates between two different billing systems with minimal effort and no errors.
 
