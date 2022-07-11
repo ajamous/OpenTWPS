@@ -16,6 +16,13 @@ An open standard is a standard that is openly accessible and usable by anyone. I
 
 OpenTWPS is used for helping interconnected communication service providers and businesses automate the processing of regular price-lists updates between two different billing systems with minimal effort and no errors.
 
+**List of OpenTWPS compliant providers**
+
+- [NeuTrafix](https://neutrafix.net)
+
+- [TelecomsXChange (TCXC)](https://www.telecomsxchange.com)
+
+
 # OpenTWPS Examples
 
 **Voice** 
