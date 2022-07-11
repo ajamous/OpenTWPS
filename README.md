@@ -79,6 +79,9 @@ Supported Effective Date formats:
 - Price1: price per minute for first billing interval (Interval1), sample:0.0523
 
 - PriceN: price per minute for next billing interval (IntervalN), sample:0.0523
+- Interval1: duration for first interval, sample: 1 for 1/1 billing
+- IntervalN: duration for next interval, sample: 1 for 1/1 billing
+
 
 
 **Virtual Numbers**
