@@ -84,4 +84,26 @@ Supported Effective Date formats:
 
 **Virtual Numbers**
 
-Coming soon.
+| Number e164 | Inbound Voice Price | Inbound SMS Price | Interval | MRC | NRC | Documents Verification Required | Status | Type | Voice | SMS | Fax | Video | Capacity | Notes                 | Local Requirements |
+| ----------- | ------------------- | ----------------- | -------- | --- | --- | ------------------------------- | ------ | ---- | ----- | --- | --- | ----- | -------- | --------------------- | ------------------ |
+| 19542305444 | 0.05                | 0.02              | 60       | 10  | 10  | 1                               | 0      | DID  | 1     | 1   | 1   | 0     | 2        | Some notes for buyers | 1                  |
+
+**Parameters**
+
+Supported Effective Date formats: 
+
+- Number e.164: is the full valid virtual phone number 
+- MRC:Monthly Reccuring Charge
+- NRC: None Reccuring Charge - Onetime fee
+- SMS Enabled: 1 is SMS enabled , 0 is not SMS enabled
+- Voice Enabled: 1 is voice enabled , 0 is not voice enabled
+- Video Enabled: 1 is video enabled , 0 is not video enabled
+- Documents Verification Required: 1 if KYC verification is required for the number before it becomes active, 0 if not required and number will immediatley be active after purchase.
+
+- Inbound Voice Price: price per minute
+
+- Inbound SMS price: price per message submission.
+- Interval: duration for first interval + second interval , sample: 1 for 1/1 billing, 60 for 60/60.
+- Type: is the number type, e.g. ITFS, DID, Shortcode, LongCode etc.. 
+
+
