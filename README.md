@@ -16,7 +16,7 @@ An open standard is a standard that is openly accessible and usable by anyone. I
 
 OpenTWPS is used for helping interconnected communication service providers and businesses automate the processing of regular price-lists updates between two different billing systems with minimal effort and no errors.
 
-# Open TWPS Examples
+# OpenTWPS Examples
 
 **Voice** 
 
@@ -106,4 +106,18 @@ Supported Effective Date formats:
 - Interval: duration for first interval + second interval , sample: 1 for 1/1 billing, 60 for 60/60.
 - Type: is the number type, e.g. ITFS, DID, Shortcode, LongCode etc.. 
 
+# API & Webhooks 
 
+**API**
+
+An application programming interface is a way for two or more computer programs to communicate with each other. It is a type of software interface, offering a service to other pieces of software. A document or standard that describes how to build or use such a connection or interface is called an API specification.
+
+**Webhook**
+
+A webhook (also called a web callback or HTTP push API) is a way for an app to provide other applications with real-time information. A webhook delivers data to other applications as it happens, meaning you get data immediately. Unlike typical APIs where you would need to poll for data very frequently in order to get it real-time. This makes webhooks much more efficient for both provider and consumer. The only drawback to webhooks is the difficulty of initially setting them up.
+
+Webhooks are sometimes referred to as “Reverse APIs,” as they give you what amounts to an API spec, and you must design an API for the webhook to use. The webhook will make an HTTP request to your app (typically a POST), and you will then be charged with interpreting it.
+
+**OpenTWPS API/Webhook Examples**
+
+@TODO
