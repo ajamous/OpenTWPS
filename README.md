@@ -1,2 +1,86 @@
 # OpenTWPS
 Open Telecom Wholesale Price-list Standard 
+
+
+**Introduction**
+
+Our recent research on telecom business to business (b2b) price-list automation for voice, SMS and virtual numbers shows that it is still a dilemma to get full automation integration working between communication service providers (CSPs) with high precision. The obvious reason for this is that there is no standard set for price list formats to help automate this process once and for all. 
+
+We believe that starting an open standard (OS) initiative for telecommunications whoelsae price-list formats and exchange methods will provide many benefits to CSPs, businesses, and Telecom application developers immediately, the POC also shows that it can be achieved with very minimal changes on the carrier side they can get compliant with the Open Telecom Wholesale Price-list Standard.
+
+An open standard is a standard that is openly accessible and usable by anyone. It is also a prerequisite to use open license, non-discrimination and extensibility.[1] Typically, anybody can participate in the development.[3] There is no single definition, and interpretations vary with usage.
+
+**What is OpenTWPS?**
+
+The Open Telecom Wholesale Price-list Standard is a simple format for representing structured telecom service price list information: documents, data, configuration, and more.
+
+**What is OpenTWPS Used For?**
+
+OpenTWPS is used for helping interconnected communication service providers and businesses automate the processing of regular price-lists updates between two different billing systems with minimal effort and no errors.
+
+# Open TWPS Examples
+
+**Voice** 
+
+| Prefix E164 | Price1 | Price N | Valid From | Timezone | Interval 1 | Interval N | Forbidden | Discontinued |
+| ----------- | ------ | ------- | ---------- | -------- | ---------- | ---------- | --------- | ------------ |
+| 79407       | 0.3000 | 0.3000  | ASAP | UTC      | 1          | 1          | 0         | 0            |
+| 79409       | 0.2850 | 0.2850  | 2022-07-11 | UTC      | 1          | 1          | 0         | 0            |
+| 7840        | 0.2850 | 0.2850  | yyyy-mm-dd | UTC      | 1          | 1          | 0         | 0            |
+| 9370        | 0.1635 | 0.1635  | yyyy-mm-dd hh:mm:ss | UTC      | 1          | 1          | 0         | 0            |
+| 9371        | 0.1635 | 0.1635  | 2022-07-11 | UTC      | 1          | 1          | 0         | 0            |
+| 9374        | 0.1622 | 0.1622  | 2022-07-11 | UTC      | 1          | 1          | 0         | 0            |
+| 9375        | 0.1622 | 0.1622  | 2022-07-11 | UTC      | 1          | 1          | 0         | 0            |
+| 9376        | 0.1154 | 0.1154  | 2022-07-11 | UTC      | 1          | 1          | 0         | 0            |
+| 9377        | 0.1154 | 0.1154  | 2022-07-11 | UTC      | 1          | 1          | 0         | 0            |
+| 9373        | 0.1468 | 0.1468  | 2022-07-11 | UTC      | 1          | 1          | 0         | 0            |
+| 9378        | 0.1468 | 0.1468  | 2022-07-11 | UTC      | 1          | 1          | 0         | 0            |
+| 93          | 0.1622 | 0.1622  | 2022-07-11 | UTC      | 1          | 1          | 0         | 0            |
+| 9372        | 0.1750 | 0.1750  | 2022-07-11 | UTC      | 1          | 1          | 0         | 0            |
+| 9379        | 0.1750 | 0.1750  | 2022-07-11 | UTC      | 1          | 1          | 0         | 0            |
+| 93750       | 0.1650 | 0.1650  | 2022-07-11 | UTC      | 1          | 1          | 0         | 0            |
+| 23670       | 0.4850 | 0.4850  | 2022-07-11 | UTC      | 1          | 1          | 0         | 0            |
+| 23672       | 0.4350 | 0.4350  | 2022-07-11 | UTC      | 1          | 1          | 0         | 0            |
+| 2367        | 1.5000 | 1.5000  | 2022-07-11 | UTC      | 1          | 1          | 0         | 0            |
+| 236         | 1.5000 | 1.5000  | 2022-07-11 | UTC      | 1          | 1          | 0         | 0            |
+| 23621       | 1.5000 | 1.5000  | 2022-07-11 | UTC      | 1          | 1          | 0         | 0            |
+| 23622       | 1.5000 | 1.5000  | 2022-07-11 | UTC      | 1          | 1          | 0         | 0            |
+| 23636       | 1.5000 | 1.5000  | 2022-07-11 | UTC      | 1          | 1          | 0         | 0            |
+| 23674       | 1.5000 | 1.5000  | 2022-07-11 | UTC      | 1          | 1          | 0         | 0            |
+| 2368776     | 1.5000 | 1.5000  | 2022-07-11 | UTC      | 1          | 1          | 0         | 0            |
+| 23675       | 0.4950 | 0.4950  | 2022-07-11 | UTC      | 60         | 60         | 0         | 0            |
+
+**SMS** 
+
+| MCCMNC E.212 | Price  | Effective From | forbidden | discontinued |
+| ------ | ------ | -------------- | --------- | ------------ |
+| 28967  | 0.0129 | ASAP           | 1         | 0            |
+| 28988  | 0.0295 | 2022-07-11           | 1         | 0            |
+| 41201  | 0.0847 | yyyy-mm-dd           | 1         | 0            |
+| 41220  | 0.0836 | yyyy-mm-dd hh:mm:ss           | 1         | 0            |
+| 41240  | 0.0763 | ASAP           | 1         | 0            |
+| 41250  | 0.0771 | ASAP           | 1         | 0            |
+| 41280  | 0.0838 | ASAP           | 0         | 0            |
+| 41288  | 0.0838 | ASAP           | 0         | 0            |
+| 27601  | 0.0311 | ASAP           | 0         | 0            |
+| 27602  | 0.0397 | ASAP           | 0         | 0            |
+| 27603  | 0.0315 | ASAP           | 0         | 0            |
+| 27604  | 0.0498 | ASAP           | 0         | 0            |
+
+**Parameters**
+
+Supported Effective Date formats: 
+
+- Effective Date: date when record becomes active, sample date: '2015-01-01 01:01:01'. For rates that don`t have 'Forbidden' or 'Discontinued' flag, rates can only be updated after X hours as defined by billing system. Special value supported: ASAP. If ASAP is specified as value, the rate will become immediately blocked if 'Forbidden' or 'Discontinued' flag is set, and now + X hours for rates with traffic allowed.
+
+- Forbidden: flag to disallow traffic to certain prefix, sample usage: payphone destinations. 0 - Allowed, 1 - Forbidden.
+- Discontinued: flag to marked prefix rate as deleted (system will delete them after some time as defined by receiving billing system). 0 Allowed, 1 - Discontinued
+
+- Price1: price per minute for first billing interval (Interval1), sample:0.0523
+
+- PriceN: price per minute for next billing interval (IntervalN), sample:0.0523
+
+
+**Virtual Numbers**
+
+Coming soon.
