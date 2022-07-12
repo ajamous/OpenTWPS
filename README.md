@@ -113,7 +113,14 @@ Supported Effective Date formats:
 - Interval: duration for first interval + second interval , sample: 1 for 1/1 billing, 60 for 60/60.
 - Type: is the number type, e.g. ITFS, DID, Shortcode, LongCode etc.. 
 
-# API & Webhooks 
+# Delivery Channels 
+
+**Email (SMTP)**
+
+Sending an OpenTWPS compliant file `.csv, xls, .xlsx` via email using SMTP protocol to the buyer(s).
+
+
+**API & Webhooks**
 
 **API**
 
