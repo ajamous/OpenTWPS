@@ -89,7 +89,9 @@ Supported Effective Date formats:
 - PriceN: price per minute for next billing interval (IntervalN), sample:0.0523
 - Interval1: duration for first interval, sample: 1 for 1/1 billing
 - IntervalN: duration for next interval, sample: 1 for 1/1 billing
-- Timezone UTC: OpenTWPS agrees to use by default UTC timezone. UTC is coordinated Universal Time or UTC is the primary time standard by which the world regulates clocks and time. It is within about 1 second of mean solar time at 0° longitude such as UT1 and is not adjusted for daylight saving time. It is effectively a successor to Greenwich Mean Time.
+- Timezone (UTC): OpenTWPS compliant members agree to use by default UTC timezone for effective_dates in price-lists. 
+
+`UTC` is coordinated Universal Time or UTC is the primary time standard by which the world regulates clocks and time. It is within about 1 second of mean solar time at 0° longitude such as UT1 and is not adjusted for daylight saving time. It is effectively a successor to Greenwich Mean Time.
 
 
 
