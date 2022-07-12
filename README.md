@@ -1,4 +1,5 @@
-![ad17cc000fd94744a359aa0eefcfc82b](https://user-images.githubusercontent.com/19316784/178379844-24bbfc40-b2c3-48cb-a6c5-0a657568c7c7.png)
+<img width="285" alt="Screen Shot 2022-07-12 at 2 49 44 PM" src="https://user-images.githubusercontent.com/19316784/178483330-1053a344-b7a1-488c-8bb6-999e68571167.png">
+
 
 
 # What is OpenTWPS?
