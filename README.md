@@ -117,8 +117,9 @@ Supported Effective Date formats:
 
 **Email (SMTP)**
 
-Sending an OpenTWPS compliant file `.csv, xls, .xlsx` via email using SMTP protocol to the buyer(s).
+Sending an OpenTWPS compliant file `.csv, xls, .xlsx` via email using SMTP protocol with DKIM enabled to the buyer(s).
 
+For security purposes, DKIM is a standard email authentication method that adds a digital signature to outgoing messages. Receiving mail servers that get messages signed with DKIM can verify messages actually came from the sender, and not someone impersonating the sender.
 
 **API & Webhooks**
 
